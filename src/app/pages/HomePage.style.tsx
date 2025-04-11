@@ -8,6 +8,7 @@ export const ContainerChat = styled.section`
   grid-gap: 16px;
   padding: 0 16px;
   scrollbar-width: none;
+  background-color: white;
   ::-webkit-scrollbar {
     display: none;
   }

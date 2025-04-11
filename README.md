@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# wizBot-challenge
 
-## Getting Started
+## Índice
 
-First, run the development server:
+​
+
+- [WizBotChallenge](#waterbucket-challenge)
+  - [Instalación](#instalacion)
+  - [Índice](#índice)
+  - [1. Preámbulo](#1-preámbulo)
+  - [2. Resumen del desarrollo del proyecto](#2-resumen-del-desarrollo-del-proyecto)
+  - [4. Carpetas que encontrarás en el repositorio](#4-carpetas-que-encontrarás-en-el-repositorio)
+  - [SRC](#src)
+    - [App](#app)
+    - [Components](#components)
+    - [README](#readme)
+
+​
+
+# Instalación
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/loregunner/wizybot-challenge.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalar dependencias
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn install  o npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+yarn run dev  o npm run dev
+```
 
-## Learn More
+## 1. Preámbulo
 
-To learn more about Next.js, take a look at the following resources:
+​
+Este proyecto tiene como enfoque principal el realizar un desarrollo front-end para el "WizBot challenge" el cual es sobre un chatBot, se realiza toda la maquetación guiandome por el documento entregado, se realiza cada paso y se guia por la imagen para el diseño realizado, tambien se hace la petición para traer los productos para visualizar, se realizo el chat en la esquina inferior para mejor adaptabilidad.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 2. Resumen del desarrollo del proyecto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Para la solución del reto, se trabajo con react - nextjs - typescript - styled-components, este con la idea de trabajar con los requerimientos tecnicos necesarios, Se realiza un despliegue con vercel. 
 
-## Deploy on Vercel
+## 4. Framework - Librería - Lenguaje
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+|            | Descripción                                                                                                        |
+| :--------- | :----------------------------------------------------------------------------------------------------------------- |
+| ReactJS    | Es una librería de JavaScript                                                                                      |
+| Nextjs     | Next.js es un framework de React que permite crear aplicaciones web rápidas y optimizadas                          |
+| Typescript | TypeScript es un superconjunto de JavaScript que añade tipado estático opcional y funciones avanzadas a JavaScript |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 5. Carpetas que encontrarás en el repositorio
+
+## SRC
+
+### App
+
+| Archivo | Descripción                         |
+| :------ | :---------------------------------- |
+| page.tsx | Pagína inicial del proyecto         |
+| global.css | Css global utilizado en el proyecto |
+| loading.css | Animación para toda la pagina |
+
+### Components
+
+Se trabajo con Atomic design para mejor lectura de carpetas y de archivos.
+
+### README
+
+| Archivo | Descripción |
+| :-------- | :---------------------------- |
+| readme.md | Documentación general del proyecto |
