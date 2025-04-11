@@ -16,7 +16,7 @@ export default function RootLayout({ children }: IProps) {
   return (
     <html lang="es" suppressHydrationWarning={true}>
       <head>
-        <title>TuCash</title>
+        <title>ChatBot</title>
       </head>
       <body className="layout" translate="no" suppressHydrationWarning={true}>
           <Suspense fallback={<Loading />}>
