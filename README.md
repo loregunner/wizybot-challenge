@@ -1,10 +1,10 @@
-# wizBot-challenge
+# wizyBot-challenge
 
 ## Índice
 
 ​
 
-- [WizBotChallenge](#waterbucket-challenge)
+- [WizyBotChallenge](#wizyBot-challenge)
   - [Instalación](#instalacion)
   - [Índice](#índice)
   - [1. Preámbulo](#1-preámbulo)
